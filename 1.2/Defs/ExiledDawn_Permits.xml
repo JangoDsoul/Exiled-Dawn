@@ -23,25 +23,27 @@
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Trooper</defName>
     <label>Call Trooper</label>
-    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>	
+    <description>Call a group of 4 light troopers to aid you in battle.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>
     <faction>ExiledDawn</faction>
-    <permitPointCost>1</permitPointCost>	
-    <uiPosition>(0,0)</uiPosition>	
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(0,0)</uiPosition>
     <royalAid>
       <favorCost>4</favorCost>
-      <pawnKindDef>
-	  <li>ExiledDawn_Fighter_2TrooperMelee</li>
-	  </pawnKindDef>
+      <pawnKindDef>ExiledDawn_Fighter_2TrooperMelee</pawnKindDef>
       <pawnCount>4</pawnCount>
-      <targetingRange>39.9</targetingRange>	  
+      <targetingRange>39.9</targetingRange>
     </royalAid>
     <cooldownDays>20</cooldownDays>
   </RoyalTitlePermitDef>
-
+  
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Fireteam</defName>
     <label>Call Fireteam</label>
+    <description>Call a group of 3 Ranged troopers to aid you in battle.</description>	
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>	
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
 	<prerequisite>CallMilitaryAid_Trooper</prerequisite>
@@ -58,7 +60,9 @@
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Squad</defName>
     <label>Call Squad</label>
+    <description>Call a group of 5 Ranged troopers to aid you in battle.</description>		
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>		
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>	
 	<prerequisite>CallMilitaryAid_Fireteam</prerequisite>	
@@ -75,7 +79,9 @@
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Platoon</defName>
     <label>Call Platoon</label>
+    <description>Call a group of 10 Melee troopers to aid you in battle.</description>		
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>		
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>	
 	<prerequisite>CallMilitaryAid_Squad</prerequisite>	
@@ -92,7 +98,9 @@
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Company</defName>
     <label>Call Company</label>
+	<description>Call a group of 16 Ranged troopers to aid you in battle.</description>
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>		
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
 	<prerequisite>CallMilitaryAid_Platoon</prerequisite>	
@@ -109,7 +117,9 @@
   <RoyalTitlePermitDef>
     <defName>CallMilitaryAid_Battalion</defName>
     <label>Call Battalion</label>
+	<description>Call a group of 20 Knights to aid you in battle.</description>	
     <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>ExiledDawnTitle_MasterSergeant</minTitle>		
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>	
 	<prerequisite>CallMilitaryAid_Company</prerequisite>	
@@ -128,7 +138,7 @@
     <label>call orbital strike</label>
     <description>Call a single-impact orbital strike at a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
-    <minTitle>Knight</minTitle>
+    <minTitle>ExiledDawnTitle_Knight</minTitle>	
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>45</cooldownDays>
@@ -149,6 +159,7 @@
     <label>call orbital salvo</label>
     <description>Call an extended salvo of orbital strikes around a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
+	<minTitle>ExiledDawnTitle_Knight</minTitle>	
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
     <prerequisite>CallOrbitalStrike</prerequisite>
@@ -170,6 +181,7 @@
     <label>call transport shuttle</label>
     <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
     <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>
+	<minTitle>ExiledDawnTitle_Knight</minTitle>	
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
     <cooldownDays>40</cooldownDays>

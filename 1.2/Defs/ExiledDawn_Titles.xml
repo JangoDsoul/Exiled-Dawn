@@ -139,7 +139,8 @@
 	  <li>TradeSettlement</li>
 	  <li>TradeCaravan</li>
 	  <li>TradeOrbital</li>
-	  <li>CallMilitaryAid_Trooper</li>			
+	  <li>CallMilitaryAid_Trooper</li>	
+	  <li>CallMilitaryAid_Fireteam</li>	
 	  <li>CallTransportShuttle</li>	
 	</permits>	
 	<requiredApparel> <!--// I need to edit this //-->

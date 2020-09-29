@@ -108,6 +108,7 @@
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
 		  <li>Bed</li>
+          <li>DoubleBed</li>	  
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -183,6 +184,8 @@
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
 		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>				  
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -258,6 +261,8 @@
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
 		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>		
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -333,6 +338,8 @@
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
 		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>		
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -384,8 +391,9 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-              <li>Bed</li>
-			  <li>DoubleBed</li>
+		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -446,8 +454,9 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-              <li>Bed</li>
-			  <li>DoubleBed</li>
+		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -526,8 +535,9 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-              <li>Bed</li>
-			  <li>DoubleBed</li>
+		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -607,8 +617,9 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-              <li>Bed</li>
-			  <li>DoubleBed</li>			  
+		  <li>Bed</li>
+          <li>DoubleBed</li>
+          <li>RoyalBed</li>				  
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">

@@ -107,7 +107,6 @@
 	  </li>
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>	  
 		</things>
 	  </li>
@@ -142,7 +141,7 @@
 	  <li>TradeOrbital</li>
 	  <li>CallMilitaryAid_Trooper</li>	
 	  <li>CallMilitaryAid_Fireteam</li>	
-	  <li>CallTransportShuttle</li>	
+	  <li>ExiledDawn_CallTransportShuttle</li>	
 	</permits>	
 	<requiredApparel> <!--// I need to edit this //-->
 	  <li>
@@ -183,9 +182,7 @@
 	  </li>
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
-		  <li>Bed</li>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>				  
+          <li>DoubleBed</li>		  
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -219,7 +216,7 @@
 	  <li>TradeOrbital</li>
 	  <li>CallMilitaryAid_Trooper</li>			  
 	  <li>CallMilitaryAid_Fireteam</li>	
-	  <li>CallTransportShuttle</li>	  
+	  <li>ExiledDawn_CallTransportShuttle</li>	  
 	</permits>	
 	<requiredApparel> <!--// I need to edit this //-->
 	  <li>
@@ -260,9 +257,7 @@
 	  </li>
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>
-          <li>RoyalBed</li>		
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -296,7 +291,7 @@
 	  <li>TradeOrbital</li>
 	  <li>CallMilitaryAid_Trooper</li>			  
 	  <li>CallMilitaryAid_Fireteam</li>	
-	  <li>CallTransportShuttle</li>	   
+	  <li>ExiledDawn_CallTransportShuttle</li>	   
 	</permits>	
 	<requiredApparel> <!--// I need to edit this //-->
 	  <li>
@@ -337,9 +332,7 @@
 	  </li>
 	  <li Class="RoomRequirement_ThingAnyOf">
 		<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>
-          <li>RoyalBed</li>		
 		</things>
 	  </li>
 	  <li Class="RoomRequirement_Thing">
@@ -391,9 +384,7 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>
-          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -436,8 +427,8 @@
 		  <li>CallMilitaryAid_Fireteam</li>		  
 		  <li>CallMilitaryAid_Squad</li>		  
 		  <li>CallMilitaryAid_Platoon</li>	
-		  <li>CallTransportShuttle</li>  
-	      <li>CallOrbitalStrike</li>		  
+		  <li>ExiledDawn_CallTransportShuttle</li>  
+	      <li>ExiledDawn_CallOrbitalStrike</li>		  
 		</permits>
 		<bedroomRequirements>
           <li Class="RoomRequirement_Area">
@@ -454,9 +445,7 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>
-          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -497,9 +486,9 @@
 		  <li>CallMilitaryAid_Squad</li>		  
 		  <li>CallMilitaryAid_Platoon</li>		  
 		  <li>CallMilitaryAid_Company</li>
-	      <li>CallTransportShuttle</li>		
-		  <li>CallOrbitalStrike</li>	  
-	      <li>CallOrbitalSalvo</li>			  
+	      <li>ExiledDawn_CallTransportShuttle</li>		
+		  <li>ExiledDawn_CallOrbitalStrike</li>	  
+	      <li>ExiledDawn_CallOrbitalSalvo</li>			  
 		</permits>
 		<grantedAbilities>
 		  <li>Speech</li>
@@ -535,9 +524,7 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-		  <li>Bed</li>
           <li>DoubleBed</li>
-          <li>RoyalBed</li>		
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">
@@ -579,9 +566,9 @@
 		  <li>CallMilitaryAid_Platoon</li>		  
 		  <li>CallMilitaryAid_Company</li>
 		  <li>CallMilitaryAid_Battalion</li>
-	      <li>CallTransportShuttle</li>		 
-	      <li>CallOrbitalStrike</li>			  
-	      <li>CallOrbitalSalvo</li>	
+	      <li>ExiledDawn_CallTransportShuttle</li>		 
+	      <li>ExiledDawn_CallOrbitalStrike</li>			  
+	      <li>ExiledDawn_CallOrbitalSalvo</li>	
 		</permits>
 		<grantedAbilities>
 		  <li>Speech</li>
@@ -617,9 +604,7 @@
 		  </li>		  
 		  <li Class="RoomRequirement_ThingAnyOf">
 			<things>
-		  <li>Bed</li>
-          <li>DoubleBed</li>
-          <li>RoyalBed</li>				  
+          <li>DoubleBed</li>		  
 			</things>
 		  </li>
 		  <li Class="RoomRequirement_Thing">

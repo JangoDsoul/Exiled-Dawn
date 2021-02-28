@@ -134,7 +134,7 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>CallOrbitalStrike</defName>
+    <defName>ExiledDawn_CallOrbitalStrike</defName>
     <label>call orbital strike</label>
     <description>Call a single-impact orbital strike at a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
@@ -155,14 +155,14 @@
   </RoyalTitlePermitDef>
 
   <RoyalTitlePermitDef>
-    <defName>CallOrbitalSalvo</defName>
+    <defName>ExiledDawn_CallOrbitalSalvo</defName>
     <label>call orbital salvo</label>
     <description>Call an extended salvo of orbital strikes around a target position.</description>
     <workerClass>RoyalTitlePermitWorker_OrbitalStrike</workerClass>
 	<minTitle>ExiledDawnTitle_Knight</minTitle>	
     <faction>ExiledDawn</faction>
     <permitPointCost>1</permitPointCost>
-    <prerequisite>CallOrbitalStrike</prerequisite>
+    <prerequisite>ExiledDawn_CallOrbitalStrike</prerequisite>
     <cooldownDays>60</cooldownDays>
     <uiPosition>(1,2)</uiPosition>
     <royalAid>
@@ -177,7 +177,7 @@
   </RoyalTitlePermitDef>
   
   <RoyalTitlePermitDef>
-    <defName>CallTransportShuttle</defName>
+    <defName>ExiledDawn_CallTransportShuttle</defName>
     <label>call transport shuttle</label>
     <description>Call a shuttle for your own use. It will transport colonists, items, and animals anywhere you like within 70 world tiles.</description>
     <workerClass>RoyalTitlePermitWorker_CallShuttle</workerClass>

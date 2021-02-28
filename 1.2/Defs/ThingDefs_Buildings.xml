@@ -63,7 +63,7 @@
   
   <ThingDef ParentName="BenchBase">
     <defName>FabricationWorkBench</defName>
-    <label>Fabrication Work Bench</label>
+    <label>Exiled Dawn Fabrication Bench</label>
     <description>A workbench equipped with tools for producing armor and weapons</description>
     <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>

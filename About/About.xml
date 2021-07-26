@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-	<ModMetaData>
-		<name>[JDS] Exiled Dawn</name>
-		<author>JangoD'soul</author>
-		<supportedVersions>
-			<li>1.1</li>
-			<li>1.2</li>			
-		</supportedVersions>
-		<packageId>JangoDsoul.ExiledDawn</packageId>
-		<description>
+  <ModMetaData>
+	<name>[JDS] Exiled Dawn</name>
+	<author>JangoD'soul</author>
+	<supportedVersions>
+	  <li>1.1</li>
+	  <li>1.2</li>		  
+	</supportedVersions>
+	<packageId>JangoDsoul.ExiledDawn</packageId>
+	<description>
 This add cool stuff
 
 [h1]Features:[/h1]
@@ -26,15 +26,15 @@ This add cool stuff
 	- Cpt.Ohu for the use of "FactionColors.dll"
 	- Jecrell for the use of "CompOversizedWeapon.dll"
 	- Inspired by kimplate for this person art called "[url=https://www.deviantart.com/kimplate/art/knight-on-duty-538981829] knight on duty [/url]"		
-		</description>
+	</description>
 	<modDependencies>
-			<li>
-				<displayName>RimWorld - Royalty</displayName>			
-				<packageId>Ludeon.RimWorld.Royalty</packageId>
-				<steamWorkshopUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steamWorkshopUrl>
-			</li>
-		</modDependencies> 
-		<loadAfter>
-			<li>Ludeon.RimWorld.Royalty</li>
-		</loadAfter> 
+	  <li>
+		<displayName>RimWorld - Royalty</displayName>			
+		<packageId>Ludeon.RimWorld.Royalty</packageId>
+		<steamWorkshopUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steamWorkshopUrl>
+	  </li>
+	</modDependencies> 
+	<loadAfter>
+	  <li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter> 
 	</ModMetaData>
